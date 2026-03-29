@@ -1,0 +1,70 @@
+body {background-color: #54416D;
+color: white;
+font-family: "Roboto Serif", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings:
+"wdth" 100,
+"GRAD" 0;
+
+}
+
+a { 
+    color: #54416D;
+}
+
+.form-info { margin-bottom: 20px;}
+
+.form-input {
+    border-bottom: 1px solid #ED7B2E;
+    font-size: 20px;
+}
+.weather-info {background-color: #BF94E4;
+margin: 0 auto;
+width: 600px;
+padding: 20px;
+border-radius: 6px;
+ box-shadow: 0 10px 30px rgba(45, 30, 60, 0.4);
+
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.weather-temp {
+    color: #ED7B2E;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+strong {
+    color:#e60d10;
+}
+h1 { margin: none;
+}
+
+.city-input {border: none;
+    padding: 16px 20px;
+    width: 500px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-button {border: none;
+    padding: 16px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+footer {
+    border-top: 1px solid #ED7B2E;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    font-size: 16px;
+}
