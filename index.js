@@ -4,7 +4,7 @@ function displayTemp(response) {
   tempElement.innerHTML = temperature;
   let h1 = document.querySelector("h1");
   h1.innerHTML = response.data.city;
-  console.log(response.data.temperature);
+  console.log(response.data);
 }
 
 function searchCity(event) {
