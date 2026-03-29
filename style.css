@@ -52,6 +52,7 @@ h1 { margin: none;
     width: 500px;
     border-radius: 5px;
     font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .submit-button {border: none;
@@ -59,6 +60,8 @@ h1 { margin: none;
     border-radius: 5px;
     font-size: 16px;
     background-color: white;
+    box-shadow: 0 4px 15px rgba(237, 123, 46, 0.4);
+    transition: transform 0.2s;
 }
 
 footer {
