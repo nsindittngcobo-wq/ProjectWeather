@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -12,9 +13,9 @@
   <body>
     <div class="weather-info">
     <header class="form-input">
-      <form class="form-info">
-        <input type="search" placeholder="Enter a city..." required class="city-input"/>
-        <input type="submit" value="Search" class="submit-button" />
+      <form class="form-info" id="form-info">
+        <input type="search" placeholder="Enter a city..." required class="city-input" id="city-input"/>
+        <input type="submit" value="Search" class="submit-button" id="submit-button" />
       </form>
     </header>
     <h1>Paris</h1>
@@ -52,5 +53,6 @@ Humidity: <strong>51%</strong>, Wind: <strong>3.6km/h</strong></p>
       >
     </footer>
 </div>
+<script src="index.js"></script>
   </body>
 </html>
