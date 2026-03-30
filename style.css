@@ -43,19 +43,16 @@ box-shadow: 0 10px 30px rgba(45, 30, 60, 0.4);
 
 .weather-temp {
     color: #ED7B2E;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 500;
 }
 
 .weather-symbol {
-    font-size: 0.6em; 
-    vertical-align: super; 
-    margin-left: -12px;
+    font-size: 24px;  
+    margin-left: -6px;
+    margin-top: -10px;
 }
 
-#icon {
-    widt
-}
 
 
 strong {
