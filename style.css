@@ -35,17 +35,29 @@ box-shadow: 0 10px 30px rgba(45, 30, 60, 0.4);
 
 }
 
+.temperature-container {
+    display: flex;
+    align-items: center;
+
+}
+
 .weather-temp {
     color: #ED7B2E;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 500;
 }
 
 .weather-symbol {
     font-size: 0.6em; 
     vertical-align: super; 
-    margin-left: -2px;
+    margin-left: -12px;
 }
+
+#icon {
+    widt
+}
+
+
 strong {
     color:#e60d10;
 }
