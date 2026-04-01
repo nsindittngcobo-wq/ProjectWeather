@@ -51,8 +51,36 @@ function search(city) {
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
   axios.get(apiUrl).then(displayTemp);
 }
+
+
+function displayForecast () {
+    let days = ["Wed", "Thu", "Fri", "Sat", "Sun"];
+    let forecastHtml = "";
+
+    days.forEach (function (day){ 
+        forecastHtml =
+          forecastHtml +
+          `<div class = "weather-forecast-day">
+    <div class = "weather-forecast-date">${day}</div>   
+    <div class = "weather-forecast-icon">☁️</div>
+    <div class = "weather-forecast-temps">
+    <div class = "weather-forecast-temp1">
+        <strong>19°</strong>
+    </div>
+    <div class = "weather-forecast-temp2">22°</div>
+    </div>
+    </div>`;
+    });
+
+    let forecastElement = document.querySelector("#weather-forecast");
+    forecastElement.innerHTML = forecastHtml;
+    
+}
+
+
 let form = document.querySelector("#form-info");
 form.addEventListener("submit", searchCity);
 
 
 search("Durban");
+displayForecast();
